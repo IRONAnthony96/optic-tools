@@ -61,7 +61,7 @@
             formula="$$Z_r = \frac{\pi w_0^2}{\lambda}$$"
           ></vue-mathjax>
           <vue-mathjax
-            formula="$$\frac{s'}{f} = 1 + \frac{\frac{s}{f} - 1}{((1 - \frac{s}{f})^2 + (\frac{Z_r}{f})^2)^\frac{1}{2}}$$"
+            formula="$$\frac{s'}{f} = 1 + \frac{\frac{s}{f} - 1}{(1 - \frac{s}{f})^2 + (\frac{Z_r}{f})^2}$$"
           ></vue-mathjax>
           <vue-mathjax
             formula="$$\frac{w'_0}{w_0} = \frac{1}{((1 - \frac{s}{f})^2 + (\frac{Z_r}{f})^2)^\frac{1}{2}}$$"
