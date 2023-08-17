@@ -1,7 +1,7 @@
 <template>
-  <div class="">
+  <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mx-4 grid-cols-1">
     <div
-      class="beam-calculator flex flex-col items-center mt-20 shadow-lg w-1/2 mx-auto bg-slate-200 pt-10 pb-2 rounded space-y-6"
+      class="beam-calculator flex flex-col items-center mt-20 shadow-lg bg-slate-200 pt-10 pb-2 rounded space-y-6"
     >
       <h1 class="text-2xl">高斯光束计算器（1）</h1>
       <div class="flex w-full">
@@ -27,7 +27,7 @@
             计算
           </button>
           <div
-            class="flex flex-col bg-green-600 w-full items-center space-y-2 mt-4 rounded py-2"
+            class="flex flex-col bg-green-600 w-full items-center space-y-2 mt-4 rounded py-2 h-56"
           >
             <div>
               束腰半径<vue-mathjax formula="$w'_0 $"></vue-mathjax>（mm）:
@@ -74,7 +74,7 @@
     </div>
 
     <div
-      class="beam-calculator flex flex-col items-center mt-20 shadow-lg w-1/2 mx-auto bg-slate-200 pt-10 pb-2 rounded space-y-6"
+      class="beam-calculator flex flex-col items-center mt-20 shadow-lg bg-slate-200 pt-10 pb-2 rounded space-y-6"
     >
       <h1 class="text-2xl">高斯光束计算器（2）</h1>
       <div class="flex w-full">
@@ -110,7 +110,7 @@
             计算
           </button>
           <div
-            class="flex flex-col bg-green-600 w-full items-center space-y-2 mt-4 rounded py-2"
+            class="flex flex-col bg-green-600 w-full items-center space-y-2 mt-4 rounded py-2 h-56"
           >
             <div>
               束腰半径<vue-mathjax formula="$w'_0 $"></vue-mathjax>（mm）:
@@ -127,7 +127,7 @@
     </div>
 
     <div
-      class="beam-calculator flex flex-col items-center mt-20 shadow-lg w-1/2 mx-auto bg-slate-200 pt-10 pb-2 rounded space-y-6"
+      class="beam-calculator flex flex-col items-center mt-20 shadow-lg bg-slate-200 pt-10 pb-2 rounded space-y-6"
     >
       <h1 class="text-2xl">高斯光束计算器 （3）</h1>
       <div class="flex w-full">
@@ -167,7 +167,7 @@
             计算
           </button>
           <div
-            class="flex flex-col bg-green-600 w-full items-center space-y-2 mt-4 rounded py-2"
+            class="flex flex-col bg-green-600 w-full items-center space-y-2 mt-4 rounded py-2 h-56"
           >
             <div>
               光束半径<vue-mathjax formula="$w(z) $"></vue-mathjax>（mm）:
