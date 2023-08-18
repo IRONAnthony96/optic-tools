@@ -9,7 +9,7 @@
         <input class="border-1 rounded" type="text" v-model="formData.f1_hat" />
         <div><vue-mathjax formula="$f'_2$"></vue-mathjax>:</div>
         <input class="border-1 rounded" type="text" v-model="formData.f2_hat" />
-        <div><vue-mathjax formula="$L$"></vue-mathjax>:</div>
+        <div><vue-mathjax formula="$L_{H'_1H_2}$"></vue-mathjax>:</div>
         <input class="border-1 rounded" type="text" v-model="formData.l" />
         <div><vue-mathjax formula="$l'_{H_1}$"></vue-mathjax>:</div>
         <input class="border-1 rounded" type="text" v-model="formData.lh1" />
