@@ -51,7 +51,9 @@
           formula="$$f' = - \frac{f'_1 * f'_2}{\Delta}$$"
         ></vue-mathjax>
         <vue-mathjax formula="$$\Delta = d - f'_1 * f_2$$"></vue-mathjax>
-        <vue-mathjax formula="$$d = L - l'_{H_1} + l_{H_2}$$"></vue-mathjax>
+        <vue-mathjax
+          formula="$$d = L_{H'_1H_2} - l'_{H_1} + l_{H_2}$$"
+        ></vue-mathjax>
 
         <vue-mathjax formula="$$l'_H = -f' * \frac{d}{f'_1}$$"></vue-mathjax>
 
